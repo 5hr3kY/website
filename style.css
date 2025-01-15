@@ -1,9 +1,11 @@
-body {
 
-    font-family: Verdana;
-  }
-  
-
+html, body {
+    overflow-x: hidden; 
+    margin: 0;         
+    padding: 0;         
+    width: 100%;     
+    font-family:verdana;
+}
 
 #title {
     font-family: Brush Script MT;
@@ -38,7 +40,7 @@ li {
 }
 
 th {
-    font-family: sans-serif;
+    font-family: 'roboto';
     font-size: 50px;
     text-decoration: underline;
     color: #6D9335;
@@ -53,6 +55,8 @@ table {
 }
 
 .rect{
+
+
     width:auto;
     height:auto;
     background-color:#223B38;
@@ -82,3 +86,61 @@ strong {
     
     border : 5px double rgb(34, 59, 56);
 }
+
+h2 {
+    text-align: center; 
+    font-size: 50px;
+    color:#6D9335;
+    font-family: 'roboto'; 
+}
+
+h3{
+    padding: 10px 10px 10px 10px;
+    font-size: 40px;
+    text-align: center;    
+}
+
+h3 a{
+
+    color:#F05557;
+    text-decoration: none;
+
+
+}
+h3 a:hover{
+
+    text-decoration: underline;
+    
+}
+
+
+#left-link {
+    display:inline-block;
+    text-align: right;
+    padding-right: 5%;
+}
+#right-link {
+    padding-left:5%;
+    display:inline-block;
+    text-align: right;
+}
+
+.sub-title{
+
+    text-align: center;
+    font-size: 60px;
+    color:#6287A7
+}
+/*
+.area {
+
+}
+
+.whole-area{
+
+}
+
+.top {
+
+}
+*/
